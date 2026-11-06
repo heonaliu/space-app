@@ -11,4 +11,5 @@
 ## Things I Learned:
 - Before implementing APIs it's good practice to have dummy data or dummy images beforehand.
 
-## Things I'm Proud of:
+## Things I Enjoyed:
+- Using fontawesome library again and its many free icons
