@@ -8,7 +8,7 @@
 
 ## Challenges I Encountered:
 
-
 ## Things I Learned:
+- Before implementing APIs it's good practice to have dummy data or dummy images beforehand.
 
 ## Things I'm Proud of:
