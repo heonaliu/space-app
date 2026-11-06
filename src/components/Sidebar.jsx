@@ -1,7 +1,12 @@
 export default function SideBar() {
   return (
     <div>
-      <h1>SideBar Component</h1>
+      <h2>The Martian Landscape</h2>
+      <div>
+        <p>Description
+            <p>Insert text about image here loll</p>
+        </p>
+      </div>
     </div>
   );
 }
