@@ -4,13 +4,13 @@ import Footer from "./components/Footer";
 import SideBar from "./components/Sidebar";
 
 function App() {
-
   return (
-  <>
-    <SideBar />
-    <Main />
-    <Footer />
-  </>
+    <>
+      <Main />
+      <SideBar />
+
+      <Footer />
+    </>
   );
 }
 
