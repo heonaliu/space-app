@@ -6,7 +6,7 @@ export default function Footer() {
         <h1>The APOD Project</h1>
       </div>
       <button>
-        Information
+        <i class="fa-solid fa-circle-info"></i>
       </button>
     </footer>
   );
