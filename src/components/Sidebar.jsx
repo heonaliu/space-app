@@ -4,12 +4,15 @@ export default function SideBar() {
       <div className="bgOverlay"></div>
       <div className="sidebarContents">
         <h2>The Martian Landscape</h2>
-      </div>
-      <div>
-        <p>
-          Description
-          <p>Insert text about image here loll</p>
-        </p>
+        <div>
+          <p>
+            Description
+            <p>Insert text about image here loll</p>
+          </p>
+        </div>
+        <button>
+          <i className="fa-solid fa-xmark"></i>
+        </button>
       </div>
     </div>
   );
