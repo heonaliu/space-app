@@ -1,5 +1,5 @@
 export default function Footer(props) {
-  const { showModal, handleToggleModal } = props;
+  const { handleToggleModal } = props;
 
   return (
     <footer>
