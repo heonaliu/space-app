@@ -7,6 +7,7 @@
 - Building on my knoweldge of APIs, I decided to do this project. I followed [Smoljames](https://www.youtube.com/@Smoljames) on YouTube's [tutorial](https://www.youtube.com/watch?v=82PXenL4MGg) on ReactJS course to fully understand the functions going on in the backend.
 
 ## Challenges I Encountered:
+- holding the footer to the bottom. I had to position it to be fixed. If display was fixed, the position of the footer needs to be specified
 
 ## Things I Learned:
 - Before implementing APIs it's good practice to have dummy data or dummy images beforehand.
