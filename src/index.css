@@ -64,6 +64,21 @@ footer {
   padding: 1rem;
 }
 
+footer div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+footer h2 {
+  font-size: 1.4rem;
+}
+
+footer h1 {
+  font-size: 0.9rem;
+  font-weight: 200;
+}
+
 .bgGradient {
   position: absolute;
   inset: 0;
@@ -118,7 +133,7 @@ footer {
     position: relative;
     inset: unset;
     min-width: 30%;
-    box-shadow: 0 0 40px 1px #030615
+    box-shadow: 0 0 40px 1px #030615;
   }
 
   .sidebarContents {
