@@ -9,9 +9,12 @@
 ## Challenges I Encountered:
 - holding the footer to the bottom. I had to position it to be fixed. If display was fixed, the position of the footer needs to be specified
 - I needed the h1 header below in the footer to show but it wasn't showing at all. After looking in the inspect tool, I scrolled down and saw the h1 tag sneakily below the entire page. Following the tutorial, the position was absolute which meant the footers height only came from the button. both h2 and h1 tags don't fit so h1 gets pushed.
+- I closed my divs incorrectly for the Sidebar.jsx so that the css was applied only to it partially for the 
 
 ## Things I Learned:
 - Before implementing APIs it's good practice to have dummy data or dummy images beforehand.
+- the amount of css needed had me researching deeper into flex boxes and how they work. Essentailly any element can be turned into a flexbox simply with display: flex. There's two miain parts -- flex container and the flex items. 
+- I learned by default the flex items line up from left to right in a single row. The direction of items flow is controlled by flex-direction.
 
 ## Things I Enjoyed:
 - Using fontawesome library again and its many free icons
