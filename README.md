@@ -15,6 +15,7 @@
 - Before implementing APIs it's good practice to have dummy data or dummy images beforehand.
 - the amount of css needed had me researching deeper into flex boxes and how they work. Essentailly any element can be turned into a flexbox simply with display: flex. There's two miain parts -- flex container and the flex items. 
 - I learned by default the flex items line up from left to right in a single row. The direction of items flow is controlled by flex-direction.
+- After working with css for a longtime, I realized I haven't exactly learned the difference between margin, padding, and gap. After some research, I learned margin is the external space outsid ethe element's border. Padding is the internal space inside an elements border, nad gap is the space between child items inside a container.
 
 ## Things I Enjoyed:
 - Using fontawesome library again and its many free icons
