@@ -8,6 +8,7 @@
 
 ## Challenges I Encountered:
 - holding the footer to the bottom. I had to position it to be fixed. If display was fixed, the position of the footer needs to be specified
+- I needed the h1 header below in the footer to show but it wasn't showing at all. After looking in the inspect tool, I scrolled down and saw the h1 tag sneakily below the entire page. Following the tutorial, the position was absolute which meant the footers height only came from the button. both h2 and h1 tags don't fit so h1 gets pushed.
 
 ## Things I Learned:
 - Before implementing APIs it's good practice to have dummy data or dummy images beforehand.
