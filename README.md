@@ -20,3 +20,4 @@
 
 ## Things I Enjoyed:
 - Using fontawesome library again and its many free icons
+- I enjoyed researching css deeper than
