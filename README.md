@@ -21,3 +21,4 @@
 ## Things I Enjoyed:
 - Using fontawesome library again and its many free icons
 - I enjoyed researching css deeper than
+- practice passing functions and props down to child components and understanding its structure more and more this time

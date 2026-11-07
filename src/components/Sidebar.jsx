@@ -1,4 +1,5 @@
-export default function SideBar() {
+export default function SideBar(props) {
+  const { handleToggleModal } = props;
   return (
     <div className="sidebar">
       <div className="bgOverlay"></div>
@@ -10,7 +11,7 @@ export default function SideBar() {
             <p>Insert text about image here loll</p>
           </p>
         </div>
-        <button>
+        <button onClick={handleToggleModal}>
           <i className="fa-solid fa-xmark"></i>
         </button>
       </div>
