@@ -3,9 +3,10 @@ import "./App.css";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
 import SideBar from "./components/Sidebar";
+import initialData from "./data";
 
 function App() {
-  const [data, setData] = useState(null);
+  const [data, setData] = useState(initialData);
   const [loading, setLoading] = useState(false);
   const [showModal, setShowModal] = useState(false);
 
