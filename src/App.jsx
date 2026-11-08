@@ -5,8 +5,8 @@ import Footer from "./components/Footer";
 import SideBar from "./components/Sidebar";
 
 function App() {
-  const [data, setData] = useState(null)
-  const [loading, setLoading] = useState(false)
+  const [data, setData] = useState(null);
+  const [loading, setLoading] = useState(false);
   const [showModal, setShowModal] = useState(false);
 
   function handleToggleModal() {
@@ -21,28 +21,28 @@ function App() {
       const NASA_KEY = import.meta.env.VITE_NASA_API_KEY;
       const url = `https://api.nasa.gov/planetary/apod?api_key=${NASA_KEY}`;
       try {
-        const res = await fetch(url)
-        const apiData = await res.json()
-        setData(apiData)
-        console.log("DATA\n", data)
-
+        const res = await fetch(url);
+        const apiData = await res.json();
+        setData(apiData);
+        console.log("DATA\n", data);
       } catch (e) {
-        console.log(e)
+        console.log(e);
       }
-    
     }
     // fetchAPIData()
   }, []);
 
   return (
     <>
-      {data ? (<Main />): (
+      {data ? (
+        <Main />
+      ) : (
         <div className="loadingState">
           <i className="fa-solid fa-gear"></i>
         </div>
       )}
       {showModal && <SideBar handleToggleModal={handleToggleModal} />}
-      <Footer handleToggleModal={handleToggleModal} />
+      {data && <Footer handleToggleModal={handleToggleModal} />}
     </>
   );
 }
