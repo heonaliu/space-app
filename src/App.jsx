@@ -21,21 +21,21 @@ function App() {
       const NASA_KEY = import.meta.env.VITE_NASA_API_KEY;
       const url = `https://api.nasa.gov/planetary/apod?api_key=${NASA_KEY}`;
 
-      const today = new Date().toDateString();
-      const localKey = `NASA-${today}`;
-      if (localStorage.getItem(localKey)) {
-        const apiData = JSON.parse(localStorage.getItem(localKey));
-        setData(apiData);
-        console.log("FETCHED FROM CACHE")
-        //this local storage goal is the fetch data from cache so it doesn't need to keep pulling
-        return;
-      }
-      localStorage.clear()
+      // const today = new Date().toDateString();
+      // const localKey = `NASA-${today}`;
+      // if (localStorage.getItem(localKey)) {
+      //   const apiData = JSON.parse(localStorage.getItem(localKey));
+      //   setData(apiData);
+      //   console.log("FETCHED FROM CACHE")
+      //   //this local storage goal is the fetch data from cache so it doesn't need to keep pulling
+      //   return;
+      // }
+      // localStorage.clear()
 
       try {
         const res = await fetch(url);
         const apiData = await res.json();
-        localStorage.setItem(localKey, JSON.stringify(apiData))
+        //localStorage.setItem(localKey, JSON.stringify(apiData))
         setData(apiData);
         console.log("FETCHED FORM API")
         console.log("DATA\n", data);

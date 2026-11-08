@@ -20,6 +20,7 @@
 - After working with css for a longtime, I realized I haven't exactly learned the difference between margin, padding, and gap. After some research, I learned margin is the external space outsid ethe element's border. Padding is the internal space inside an elements border, nad gap is the space between child items inside a container.
 - in order for the inset property to be used, there must be a position property set to something other than static. The inset property sets distance between element and parent element.
 - learning to use localstorage to store the information in the local cache
+- NASA moved to a wordpress endpoint and its legacy url isn't going to work as of Dec 2026. So I had to figure out how to adjust my code to fit this and the API key because currently I'm unable to grab the correct image from the JSON and consistently having internal server errors
 
 ## Things I Enjoyed:
 - Using fontawesome library again and its many free icons
