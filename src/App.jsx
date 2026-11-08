@@ -5,6 +5,8 @@ import Footer from "./components/Footer";
 import SideBar from "./components/Sidebar";
 
 function App() {
+  const [data, setData] = useState(null)
+  const [loading, setLoading] = useState(false)
   const [showModal, setShowModal] = useState(false);
 
   function handleToggleModal() {
@@ -20,7 +22,8 @@ function App() {
       const url = `https://api.nasa.gov/planetary/apod?api_key=${NASA_KEY}`;
       try {
         const res = await fetch(url)
-        const data = await res.json()
+        const apiData = await res.json()
+        setData(apiData)
         console.log("DATA\n", data)
 
       } catch (e) {
@@ -28,12 +31,16 @@ function App() {
       }
     
     }
-    fetchAPIData()
+    // fetchAPIData()
   }, []);
 
   return (
     <>
-      <Main />
+      {data ? (<Main />): (
+        <div className="loadingState">
+          <i className="fa-solid fa-gear"></i>
+        </div>
+      )}
       {showModal && <SideBar handleToggleModal={handleToggleModal} />}
       <Footer handleToggleModal={handleToggleModal} />
     </>
