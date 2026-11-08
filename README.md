@@ -19,8 +19,10 @@
 - I learned by default the flex items line up from left to right in a single row. The direction of items flow is controlled by flex-direction.
 - After working with css for a longtime, I realized I haven't exactly learned the difference between margin, padding, and gap. After some research, I learned margin is the external space outsid ethe element's border. Padding is the internal space inside an elements border, nad gap is the space between child items inside a container.
 - in order for the inset property to be used, there must be a position property set to something other than static. The inset property sets distance between element and parent element.
+- learning to use localstorage to store the information in the local cache
 
 ## Things I Enjoyed:
 - Using fontawesome library again and its many free icons
 - I enjoyed researching css deeper than
 - practice passing functions and props down to child components and understanding its structure more and more this time
+- utilizing local storage to store the information as cache. I felt this was a useful thing to learn so that I don't have to keep fetching the data and burning thorugh my key.
