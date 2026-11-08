@@ -1,5 +1,10 @@
 # NASA Space App
 
+![preview](public/preview.png)
+
+Find today's APOD:
+https://science.nasa.gov/apod/
+
 ## Description:
 - This project uses an API from NASA's APOD (Astronomy Picture of the Day) from https://api.nasa.gov/ renders the image, and gives you a full description of the astronomical image
 

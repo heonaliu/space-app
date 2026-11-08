@@ -111,6 +111,19 @@ footer button i:hover {
   z-index: 10;
 }
 
+.sidebarContents .apod-button {
+  display: flex;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 38, 255, 0.577);
+  cursor: pointer;
+}
+
+.sidebarContents .apod-button:hover {
+  opacity: 0.7;
+}
+
 .bgOverlay {
   position: absolute;
   inset: 0;
@@ -179,6 +192,8 @@ footer button i:hover {
   font-size: 3rem;
   animation: spin 2s linear infinite;
 }
+
+
 
 @keyframes spin {
   from {

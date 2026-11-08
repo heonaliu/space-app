@@ -4,6 +4,9 @@ export default function SideBar(props) {
     <div className="sidebar">
       <div className="bgOverlay"></div>
       <div className="sidebarContents">
+        <button className="apod-button" onClick={() => window.open("https://science.nasa.gov/apod/", "_blank", "noopener noreferrer")}>
+          TODAY's APOD
+        </button>
         <h2>{data?.title}</h2>
         <div className="descriptionContainer">
           <p className="descriptionTitle">Description</p>
