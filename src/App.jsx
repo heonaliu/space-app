@@ -65,6 +65,7 @@ function App() {
       ) : (
         <div className="loadingState">
           <i className="fa-solid fa-gear"></i>
+          <h1>If nothing is loading, that means NASA's API is likely down.</h1>
         </div>
       )}
       {showModal && (
