@@ -29,7 +29,7 @@ function App() {
         console.log(e);
       }
     }
-    // fetchAPIData()
+    fetchAPIData();
   }, []);
 
   return (
@@ -41,8 +41,10 @@ function App() {
           <i className="fa-solid fa-gear"></i>
         </div>
       )}
-      {showModal && <SideBar handleToggleModal={handleToggleModal} />}
-      {data && <Footer handleToggleModal={handleToggleModal} />}
+      {showModal && (
+        <SideBar data={data} handleToggleModal={handleToggleModal} />
+      )}
+      {data && <Footer data={data} handleToggleModal={handleToggleModal} />}
     </>
   );
 }

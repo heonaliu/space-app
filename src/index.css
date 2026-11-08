@@ -133,6 +133,11 @@ footer button i:hover {
   background: #030615;
 }
 
+.sidebarContents h2 {
+  font-weight: 200;
+  font-size: 1.4rem;
+}
+
 .sidebarContents div {
   flex: 1;
 }
@@ -151,6 +156,17 @@ footer button i:hover {
   opacity: 0.7s;
 }
 
+.descriptionTitle {
+  font-size: 1.1rem;
+  font-weight: 200;
+}
+
+.descriptionContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
 .loadingState {
   display: flex;
   align-items: center;
@@ -167,8 +183,9 @@ footer button i:hover {
 @keyframes spin {
   from {
     transform: rotate(0deg);
-  } to {
-    transform: rotate(360deg)
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
 
