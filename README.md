@@ -3,7 +3,7 @@
 ![preview](public/preview.png)
 
 ## Live Link:
-
+- https://nasa-space-apod.vercel.app/
 
 Find today's APOD:
 https://science.nasa.gov/apod/
