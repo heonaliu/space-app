@@ -120,6 +120,12 @@ footer button i:hover {
   cursor: pointer;
 }
 
+.sidebarContents .note {
+  font-size: 0.9rem;
+  color: #ccccccac; 
+  font-style: italic;
+}
+
 .sidebarContents .apod-button:hover {
   opacity: 0.7;
 }

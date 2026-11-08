@@ -7,6 +7,7 @@ export default function SideBar(props) {
         <button className="apod-button" onClick={() => window.open("https://science.nasa.gov/apod/", "_blank", "noopener noreferrer")}>
           TODAY's APOD
         </button>
+        <p className="note">Sometimes this won't load due to NASA's internal API servers going down. Please be patient. If it doesn't load, you may use this button to view the APOD for today.</p>
         <h2>{data?.title}</h2>
         <div className="descriptionContainer">
           <p className="descriptionTitle">Description</p>
