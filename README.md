@@ -2,10 +2,12 @@
 
 ![preview](public/preview.png)
 
+* Note: If you don't see anything, that likely means the NASA Internal Server is down. I added a button that you can click to redirect you to the today page but otherwise if the server is working - the project should smoothly be able to fetch the data.
+
 ## Live Link:
 - https://nasa-space-apod.vercel.app/
 
-Find today's APOD:
+## Find today's APOD:
 https://science.nasa.gov/apod/
 
 ## Description:
