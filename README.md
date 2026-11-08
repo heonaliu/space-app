@@ -2,6 +2,9 @@
 
 ![preview](public/preview.png)
 
+## Live Link:
+
+
 Find today's APOD:
 https://science.nasa.gov/apod/
 
@@ -32,3 +35,4 @@ https://science.nasa.gov/apod/
 - I enjoyed researching css deeper than
 - practice passing functions and props down to child components and understanding its structure more and more this time
 - utilizing local storage to store the information as cache. I felt this was a useful thing to learn so that I don't have to keep fetching the data and burning thorugh my key.
+- I wasn't able to completely figure out the API issue so I added a few elements like the button and the small descriptions in case it won't load.

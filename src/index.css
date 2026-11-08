@@ -122,7 +122,7 @@ footer button i:hover {
 
 .sidebarContents .note {
   font-size: 0.9rem;
-  color: #ccccccac; 
+  color: #ccccccac;
   font-style: italic;
 }
 
@@ -188,6 +188,9 @@ footer button i:hover {
 
 .loadingState {
   display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
   align-items: center;
   justify-content: center;
   flex: 1;
@@ -199,7 +202,11 @@ footer button i:hover {
   animation: spin 2s linear infinite;
 }
 
-
+.loadingState .note {
+  font-size: 0.9rem;
+  color: #ccccccac;
+  font-style: italic;
+}
 
 @keyframes spin {
   from {
