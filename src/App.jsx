@@ -66,7 +66,7 @@ function App() {
         <div className="loadingState">
           <i className="fa-solid fa-gear"></i>
           <h1 className="note">If nothing is loading, that means NASA's API is likely down.</h1>
-          <button onClick={() => window.location.reload()} className="loadButton">NASA APOD</button>
+          <button onClick={() => window.open("https://science.nasa.gov/apod/", "_blank", "noopener noreferrer")} className="loadButton">NASA APOD</button>
         </div>
       )}
       {showModal && (
